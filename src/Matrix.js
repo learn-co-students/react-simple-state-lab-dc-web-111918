@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import Cell from './Cell'
+import { pattern1 } from './data'
 
 export default class Matrix extends Component {
   
   genRow = (vals) => (
-    vals.map(val => <div className="cell"></div>) // replace me and render a cell component instead!
+    vals.map(val => 
+    <div className="Cell">
+      <Cell value={val}/>
+    </div>) // replace me and render a cell component instead!
   )
   
   genMatrix = () => (
@@ -17,5 +22,11 @@ export default class Matrix extends Component {
       </div>
     )
   }
-  
+}
+Matrix.defaultProps = {
+  values: pattern1.map((arr) => {
+    return arr.map((hexStr) => {
+      return '#f00'
+    })
+  })
 }
