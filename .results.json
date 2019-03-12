@@ -5,9 +5,9 @@
     "passes": 10,
     "pending": 0,
     "failures": 0,
-    "start": "2019-03-12T20:01:19.481Z",
-    "end": "2019-03-12T20:01:19.519Z",
-    "duration": 38
+    "start": "2019-03-12T20:05:31.440Z",
+    "end": "2019-03-12T20:05:31.489Z",
+    "duration": 49
   },
   "tests": [
     {
@@ -34,7 +34,7 @@
     {
       "title": "is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
       "fullTitle": "<Cell /> is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
-      "duration": 4,
+      "duration": 9,
       "currentRetry": 0,
       "err": {}
     },
@@ -55,14 +55,14 @@
     {
       "title": "has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
       "fullTitle": "<Cell /> has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
       "fullTitle": "<Cell /> has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
-      "duration": 3,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
@@ -76,7 +76,7 @@
     {
       "title": "sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
       "fullTitle": "<Cell /> sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -108,7 +108,7 @@
     {
       "title": "is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
       "fullTitle": "<Cell /> is a correctly defined and exported React component which renders a <div> with a className of 'cell'",
-      "duration": 4,
+      "duration": 9,
       "currentRetry": 0,
       "err": {}
     },
@@ -129,14 +129,14 @@
     {
       "title": "has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
       "fullTitle": "<Cell /> has an event listener for clicks on the <div> (don't forget: 'onClick' in React!)",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
       "fullTitle": "<Cell /> has an event listener that, when clicked, calls this.setState() once (make sure you aren't setting state directly, but instead using the component's 'setState' method)",
-      "duration": 3,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
@@ -150,7 +150,7 @@
     {
       "title": "sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
       "fullTitle": "<Cell /> sets the <div>'s inline style attribute to 'style={{backgroundColor: this.state.color}}'",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
